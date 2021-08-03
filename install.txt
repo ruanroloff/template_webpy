@@ -1,0 +1,8 @@
+windows
+python -m pip install --upgrade pip
+
+F:
+pip install -r F:\workspace\tmp\flask\z_flask\requirements.txt
+
+linux
+sudo pip3 install -r /run/media/ruan/data2/workspace/tmp/flask/z_flask/requirements.txt
