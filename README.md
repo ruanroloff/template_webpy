@@ -1,6 +1,6 @@
-# base-flask-mvc
+# base-flask-website
 
-Fire up a new 
+Fire up
 
 ![](img/home_screen.png)
 
@@ -8,16 +8,11 @@ Fire up a new
 
 `$ git clone https://github.com/*/*.git`
 
-`$ cd base-flask-mvc`
+`$ cd base-flask`
 
-**Create and activate a new conda environment with the appropriate modules**
-
-`$ conda env create -f environment.yml`
-
-`$ source activate base-flask-mvc`
 
 **Create a new database table**
-
+`$ cd base-flask`
 
 
 **Run application**
