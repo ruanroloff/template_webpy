@@ -18,7 +18,7 @@ Fire up a new
 
 **Create a new database table**
 
-`$ python -m app.db.db_create_new`
+
 
 **Run application**
 
