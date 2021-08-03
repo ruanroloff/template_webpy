@@ -1,8 +1,36 @@
-windows
+#### local
+#windows
 python -m pip install --upgrade pip
 
 F:
 pip install -r F:\workspace\tmp\flask\z_flask\requirements.txt
 
-linux
+#linux
 sudo pip3 install -r /run/media/ruan/data2/workspace/tmp/flask/z_flask/requirements.txt
+
+
+
+
+####google coud sample
+cd /run/media/ruan/data2/workspace/tmp/z_flask
+
+MY_EMAIL_ADDRESS=**@gmail.com
+MY_PROJECT_ID=***-31650
+
+gcloud builds submit --tag gcr.io/$MY_PROJECT_ID/flaskapp_name:v1
+
+gcloud run deploy flaskapp-name-v1 \
+ --image gcr.io/$MY_PROJECT_ID/flaskapp_name:v1 \
+ --region us-east1 \
+ --platform managed \
+ --memory 128Mi
+
+# or
+
+gcloud run deploy flaskapp-name-v1 \
+ --image gcr.io/$MY_PROJECT_ID/flaskapp_name:v1 \
+ --region us-east1 \
+ --platform managed \
+ --memory 128Mi \
+ --add-cloudsql-instances project-31650:us-central1:dbname \
+ --set-env-vars "FLASK_ENV=production"
