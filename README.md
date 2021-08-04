@@ -12,6 +12,7 @@ Fire up
 
 
 **Create a new database table**
+
 `$ cd base-flask`
 
 
@@ -22,3 +23,6 @@ Fire up
 * username: user@gmail.com
 * password: testpassword
 
+**TO DO
+
+fix deploy
